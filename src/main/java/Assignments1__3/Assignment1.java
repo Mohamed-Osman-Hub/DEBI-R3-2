@@ -1,4 +1,4 @@
-package javaBasics;
+package Assignments1__3;
 
 import java.util.Scanner;
 
@@ -60,7 +60,7 @@ public class Assignment1 {
                 message = "You passed, But Aim Higher";
                 break;
             case 'F':
-                message = "You Need To Imbrove";
+                message = "You Need To Improve";
                 break;
             default:
                 message = "Invalid Grade";
@@ -68,11 +68,10 @@ public class Assignment1 {
 
 
 
-        System.out.println("studentName" +StudentName);
-        System.out.println("TotalMarks" +TotalMarks);
-        System.out.println("AveragMarks" +AverageMarks);
-        System.out.println("studentName" +StudentName);
-        System.out.println("Grade" +grade);
+        System.out.println("studentName: " +StudentName);
+        System.out.println("TotalMarks: " +TotalMarks);
+        System.out.println("AverageMarks: " +AverageMarks);
+        System.out.println("Grade: " +grade);
         System.out.println(message);
 
 
